@@ -1,6 +1,6 @@
 /.DS_Store
 # Data files
-*.csv
-*.pkl
-*.parquet
-*.xlsx
+/.csv
+/.pkl
+/.parquet
+/.xlsx
