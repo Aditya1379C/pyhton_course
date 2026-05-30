@@ -1,4 +1,4 @@
-# 2. Most Demanded Skills for Top Data Roles in India
+# 1. Most Demanded Skills for Top Data Roles in India
 
 ## Overview
 This project analyses the most in-demand skills for the top 3 data roles in India's job market, using real-world job posting data. The goal is to identify which skills appear most frequently and what percentage of job postings request them.
