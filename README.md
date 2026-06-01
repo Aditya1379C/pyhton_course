@@ -98,7 +98,7 @@ plt.show()
 
 
 
-# 3.1. Salary Analysis for Data Analysts in India
+# 3.1. Salary Analysis for Data Jobs in India
 
 ## Overview
 This project explores the compensation landscape for data professionals in India. It analyzes the salary distributions across common data roles (like Data Scientist, Data Engineer, and Data Analyst) and then deep-dives into Data Analyst roles to identify the highest-paying versus the most in-demand skills.
@@ -125,7 +125,9 @@ plt.show()
 ```
 
 ### Top data jobs in India
-![Compensation for the specified job](images/Top Data Jobs in India.png)
+### Salary Distributions
+![Top Data Jobs in India](images/Top%20Data%20Jobs%20in%20India.png)
+
 
 
 ## Insights
@@ -166,8 +168,9 @@ plt.show()
 
 ```
 
-### Top paid skills vs. in-demand skills
-![Top paid skills vs. most in-demand skills ](images/Top paid skills vs. in-demand skills.png)
+### Highest Paid vs. Most In-Demand Skills
+![Top paid skills vs. in-demand skills](images/Top%20paid%20skills%20vs.%20in-demand%20skills.png)
+
 
 ## Insights
 * Niche Skills Pay More: The top graph indicates that specialized technical skills and niche tools are strongly associated with higher salaries. This suggests that advanced technical proficiency in specific frameworks can significantly increase earning potential in the region.
