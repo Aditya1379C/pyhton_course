@@ -15,7 +15,7 @@ This project analyses the most in-demand skills for the top 3 data roles in Indi
 ### Skill Counts
 ![Counts of Skills Requested in IN Job Postings](images/skill_counts.png)
 
-### Skill Percent
+### Skill Likelihood
 ![Likelihood of Skills Requested in IN Job Postings](images/skill_likelihood.png)
 
 | Role | Top Skill | % of Job Postings |
@@ -60,10 +60,22 @@ The analysis was executed through the following structured process:
 * **Visualization:** Data trends for the top five skills were plotted longitudinally across 12 months using `matplotlib` and `seaborn` .
 
 ## Visualizations
+```python
+
+from matplotlib.ticker import PercentFormatter
+
+df_plot = df_DA_US_percent.iloc[:, :5]
+sns.lineplot(data=df_plot, dashes=False, legend='full', palette='tab10')
+
+plt.gca().yaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+plt.show()
+
+```
 ### Counts of Skills Requested
 ![Counts of Postings per month for the specified skill](images/skill_count.png)
 
-### Skill Likelihood Trend
+### Skill Percent Trend
 ![Percentage of Postings per month for the specified skill](images/Skill_percent.png)
 
 ## Key Findings
