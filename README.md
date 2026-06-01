@@ -181,3 +181,34 @@ plt.show()
 * pandas: For data manipulation and aggregation of salary metrics.
 * matplotlib.pyplot & seaborn: For creating box plots and bar charts to visualize salary distributions and skill demands.
 * datasets: To load the primary job market dataset from Hugging Face.
+
+
+# 4. Most Optimal Skills for Data Scientists in India
+
+## Overview
+This project analyzes the most optimal skills to learn for Data Scientists in the Indian job market. By plotting the percentage of job postings that require specific skills against their corresponding median salaries, this analysis helps data professionals identify which technologies offer the best balance of market demand and financial reward.
+
+## Methodology
+The analysis was executed through the following structured process:
+* **Data Acquisition & Cleaning:** Raw job posting data was retrieved from the Hugging Face `datasets` library (`lukebarousse/data_jobs`). Missing salary data was dropped to ensure accurate financial representations.
+* **Data Filtering:** The dataset was filtered specifically for 'Data Scientist' roles located in 'India'. 
+* **Aggregation:** Data was exploded to allocate an individual row per skill. A pivot operation calculated the median yearly salary and the total occurrence count for each skill.
+* **Normalization:** The raw skill counts were divided by the total number of Data Scientist postings (with salary data) to determine the percentage likelihood of each skill being requested.
+* **Categorization & Visualization:** Skills with greater than 5% demand were merged with a technology dictionary to categorize them (e.g., Programming, Cloud, Databases). A scatter plot was then generated using `seaborn` and `matplotlib`, utilizing `adjustText` to prevent label overlapping.
+
+## Visualizations
+
+### Optimal Skills Scatter Plot
+![Most Optimal Skills for Data Scientists in India](images/Most%20optimal%20skills%20for%20Data%20Scientists.png)
+
+## 4. Key Findings
+* Python and SQL remain the most consistently demanded skills for Data Scientists, although they command a more moderate median salary compared to highly specialized niche technologies.
+* Cloud and Big Data tools (such as AWS and Spark) offer significantly higher median salaries, emerging as the most financially optimal skills to learn despite having a lower overall demand frequency than foundational languages.
+* Both Excel and Tableau show relatively stable demand as essential supplementary tools but remain on the lower end of the median salary spectrum. Specialized machine learning libraries, while less demanded compared to the core languages, show a distinct upward trend in earning potential.
+
+## 5. Libraries
+* `pandas`: Data cleaning, formatting, and mathematical aggregations.
+* `matplotlib.pyplot` & `seaborn`: Data visualization, scatter plot generation, and axis formatting.
+* `adjustText`: Advanced text label manipulation to prevent overlapping annotations on the scatter plot.
+* `datasets`: Remote dataset ingestion from Hugging Face.
+* `ast`: Literal string-to-list evaluation.
