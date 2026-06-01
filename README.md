@@ -15,7 +15,7 @@ This project analyses the most in-demand skills for the top 3 data roles in Indi
 ### Skill Counts
 ![Counts of Skills Requested in IN Job Postings](images/skill_counts.png)
 
-### Skill Likelihood
+### Skill Percent
 ![Likelihood of Skills Requested in IN Job Postings](images/skill_likelihood.png)
 
 | Role | Top Skill | % of Job Postings |
