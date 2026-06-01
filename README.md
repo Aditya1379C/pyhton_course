@@ -214,30 +214,30 @@ The analysis was executed through the following structured process:
 * `ast`: Literal string-to-list evaluation.
 
 # Insights
-* Core & Niche Skills: Basic skills (SQL, Python, Excel) are essential for employability in all cases; niche technology stacks provide for the most lucrative pay grades.
-* Position-Specific Requirements: Although SQL and Python rule in general, position-specific requirements include Cloud engineering for Data Engineers, BI (Excel & Power BI) for Data Analysts, and R programming for Data Scientists.
-* Best Paying Skills for DS: As for the Data Scientists, cloud and Big Data-related technologies (AWS, Spark) can be identified as the best paying skills, regardless of their frequency of mentioning compared to programming languages.
-* Pay Differential Between Senior Positions: The senior data roles (e.g., Senior Data Scientist/Engineer) show much higher median salary levels and wider pay distribution range, including higher salaries in the tail of the sample.
-* Job Requirements Consistency: Basic market requirements stay highly consistent throughout the year; they are always related to SQL and involve visualization tools such as Tableau & Power BI.
+* **Core & Niche Skills**: Basic skills (SQL, Python, Excel) are essential for employability in all cases; niche technology stacks provide for the most lucrative pay grades.
+* **Position-Specific Requirements**: Although SQL and Python rule in general, position-specific requirements include Cloud engineering for Data Engineers, BI (Excel & Power BI) for Data Analysts, and R programming for Data Scientists.
+* **Best Paying Skills for DS**: As for the Data Scientists, cloud and Big Data-related technologies (AWS, Spark) can be identified as the best paying skills, regardless of their frequency of mentioning compared to programming languages.
+* **Pay Differential Between Senior Positions**: The senior data roles (e.g., Senior Data Scientist/Engineer) show much higher median salary levels and wider pay distribution range, including higher salaries in the tail of the sample.
+* **Job Requirements Consistency**: Basic market requirements stay highly consistent throughout the year; they are always related to SQL and involve visualization tools such as Tableau & Power BI.
 
 # What I Learned From This Project
 
 Throughout this project, I deepened my understanding of the data analyst job market and enhanced my technical skills in Python, especially in data manipulation and visualization. Here are a few specific things I learned:
 
-* Advanced Python Usage**: Utilizing libraries such as Pandas for data manipulation, Seaborn and Matplotlib for data visualization, and other libraries helped me perform complex data analysis tasks more efficiently.
-* Data Cleaning Importance**: I learned that thorough data cleaning and preparation are crucial before any analysis can be conducted, ensuring the accuracy of insights derived from the data.
-* Strategic Skill Analysis**: The project emphasized the importance of aligning one's skills with market demand. Understanding the relationship between skill demand, salary, and job availability allows for more strategic career planning in the tech industry.
+* **Advanced Python Usage**: Utilizing libraries such as Pandas for data manipulation, Seaborn and Matplotlib for data visualization, and other libraries helped me perform complex data analysis tasks more efficiently.
+* **Data Cleaning Importance**: I learned that thorough data cleaning and preparation are crucial before any analysis can be conducted, ensuring the accuracy of insights derived from the data.
+* **Strategic Skill Analysis**: The project emphasized the importance of aligning one's skills with market demand. Understanding the relationship between skill demand, salary, and job availability allows for more strategic career planning in the tech industry.
 
 # Challenges I faced 
 This project was not without its challenges, but it provided good learning opportunities:
 
-* Data Inconsistencies**: Handling missing or inconsistent data entries requires careful consideration and thorough data-cleaning techniques to ensure the integrity of the analysis.
-* Complex Data Visualization**: Designing effective visual representations of complex datasets was challenging but critical for conveying insights clearly and compellingly.
-* Balancing Breadth and Depth**: Deciding how deeply to dive into each analysis while maintaining a broad overview of the data landscape required constant balancing to ensure comprehensive coverage without getting lost in details.
+* **Data Inconsistencies**: Handling missing or inconsistent data entries requires careful consideration and thorough data-cleaning techniques to ensure the integrity of the analysis.
+* **Complex Data Visualization**: Designing effective visual representations of complex datasets was challenging but critical for conveying insights clearly and compellingly.
+* **Balancing Breadth and Depth**: Deciding how deeply to dive into each analysis while maintaining a broad overview of the data landscape required constant balancing to ensure comprehensive coverage without getting lost in details.
 
 # Conclusion
 In conclusion, analysis of the Indian market for data jobs reveals that the T-shaped skillset is imperative to have a smooth sail through your career in data:
-* The Baseline (Broad Skills): The universal requirement of being proficient in SQL, Python, and Excel is mandatory for entering into any data job.
-* The Premium (Deep Skills): While having the foundational skills is enough for securing a job offer, it is the deep specializations like Cloud, Big Data, ML that help in earning premium paychecks.
-* Specialization in the Role: Choose what works best for your particular field and optimize your learning experience. While analysts can do well by specializing in BI tools like Power BI and Tableau, engineers and scientists should focus on Cloud and Big Data technologies.
+* **The Baseline (Broad Skills)**: The universal requirement of being proficient in SQL, Python, and Excel is mandatory for entering into any data job.
+* **The Premium (Deep Skills)**: While having the foundational skills is enough for securing a job offer, it is the deep specializations like Cloud, Big Data, ML that help in earning premium paychecks.
+* **Specialization in the Role**: Choose what works best for your particular field and optimize your learning experience. While analysts can do well by specializing in BI tools like Power BI and Tableau, engineers and scientists should focus on Cloud and Big Data technologies.
 Ultimately, the best data professionals in India are those who not only master the universal languages of data but also specialize in the high-paying niche tools related to their respective fields.
