@@ -8,7 +8,7 @@ This project analyses the most in-demand skills for the top 3 data roles in Indi
 2. **Explode skills** — expand each skill into its own row for analysis
 3. **Count skills** — group by job title and skill, count occurrences
 4. **Calculate percentages** — divide skill count by total job postings per role
-5. **Visualise** — plot top 5 skills per role as horizontal bar charts
+5. **Visualise** — plot top 5 skills per role as horizontal bar charts using seaborn library.
 
 ## Key Findings
 
