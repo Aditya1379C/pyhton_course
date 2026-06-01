@@ -136,7 +136,7 @@ plt.show()
 * Seniority Scales Pay: Median salaries clearly scale with the seniority and specialization of the roles. Senior positions not only command higher median salaries but also show larger variances in typical compensation bands, reflecting greater pay differentiation as responsibilities increase.
 
 
-# 3.2. Highest Paid & Most Demanded Skills for Data Analysts
+# 3.2. Highest Paid & Most Demanded Skills for Data Scientists
 
 ## Overview
 Next, I narrowed my analysis and focused only on data analyst roles in India to contrast the skills that pay the highest against the skills that are requested the most.
@@ -145,18 +145,18 @@ Next, I narrowed my analysis and focused only on data analyst roles in India to 
 ```python
 fig, ax = plt.subplots(2, 1)  
 
-# Top 10 Highest Paid Skills for Data Analysts in India
+# Top 10 Highest Paid Skills for Data Scientists in India
 sns.barplot(data=df_DA_top_pay_IN, x='median', y=df_DA_top_pay_IN.index, hue='median', ax=ax[0], palette='dark:b_r')
 ax[0].legend().remove()
-ax[0].set_title('Highest Paid Skills for Data Analysts in India')
+ax[0].set_title('Highest Paid Skills for Data Scientists in India')
 ax[0].set_ylabel('')
 ax[0].set_xlabel('')
 ax[0].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'${int(x/1000)}K'))
 
-# Top 10 Most In-Demand Skills for Data Analysts in India
+# Top 10 Most In-Demand Skills for Data Scientists in India
 sns.barplot(data=df_DA_skills_IN, x='median', y=df_DA_skills_IN.index, hue='median', ax=ax[1], palette='light:b')
 ax[1].legend().remove()
-ax[1].set_title('Most In-Demand Skills for Data Analysts in India')
+ax[1].set_title('Most In-Demand Skills for Data Scientists in India')
 ax[1].set_ylabel('')
 ax[1].set_xlabel('Median Salary (USD)')
 ax[1].set_xlim(ax[0].get_xlim())  # Set the same x-axis limits as the first plot
